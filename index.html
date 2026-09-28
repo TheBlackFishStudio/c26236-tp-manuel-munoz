@@ -4,74 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manuel Muñoz | TP C26236 </title>
-
+    <!-- ------------------------------- Favicon ------------------------------- -->
+    <link rel="icon" href="./img/favicon.png" sizes="any">
+    <!-- ------------------------------- Fuentes ------------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- ------------------------------- Estilos ------------------------------- -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media.css">
+        
 </head>
 <body>
     <header>
-        <div class="div-logo"><a class="logo" href="./index.html">LOGO</a></div>
+        <div class="div-logo"><a class="logo" href="./index.html"><img src="./img/logo.webp" alt=""></a></div>
         <nav class="header-nav">
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li><a href="./pages/carrito.html">Carrito</a></li>
+                <li><a class="icon-carrito" href="./pages/carrito.html"><img class="icon-nav" src="./img/carrito.svg" alt="carrito de compras"></a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="inicio">
-            <h1>Bienvenida a la tienda</h1>
-            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed reiciendis nesciunt nostrum numquam! Optio perferendis magni asperiores quo doloribus veritatis inventore exercitationem enim odio! In inventore enim fugit? Velit, illo.</p>
+            <h1 class="text-dark">Encontrá el teclado mecánico perfecto para vos</h1>
+            <p class="parrafo text-dark">Descubrí teclados, switches y accesorios pensados para mejorar tu experiencia al jugar, trabajar o simplemente disfrutar cada pulsación.</p>
 
         </section>
         <section>
             <h2 class="titulo-productos text-secondary">Nuestros productos</h2>
             <div class="contenedor-tarjetas">
                 <article class="card text-dark">
-                    <img src="./img/teclado.png" alt="Teclado">
-                    <h3>Teclado</h3>
-                    <p>Teclado</p>
-                    <p>$4500</p>
-                    <button class="btn bg-secondary text-dark">
-                        Agregar al carrito
-                    </button>
+                    <img src="./img/imagen-tec-01.webp" alt="Teclado Keychron V3 Max TKL Inalámbrico RGB">
+                    <div class="contenedor-info">
+                        <h3>Keychron V3 Max</h3>
+                        <p> TKL Inalámbrico RGB</p>
+                        <p>$4500</p>
+                    </div>
+                    <div class="contenedor-btn">
+                        <button class="btn bg-secondary cursor-pointer text-ligth comprar">
+                            Agregar al carrito
+                        </button>
+                        <a class="btn bg-secondary cursor-pointer text-dark ver-mas" href="./pages/interna-producto.html">Ver más</a>                        
+                    </div>
                 </article>
                 <article class="card text-dark">
-                    <img src="./img/teclado.png" alt="Teclado">
-                    <h3>Teclado</h3>
-                    <p>Teclado</p>
-                    <p>$4500</p>
-                    <button class="btn bg-secondary text-dark">
-                        Agregar al carrito
-                    </button>
+                    <img src="./img/imagen-tec-02.webp" alt="Teclado Aula F75 75% Gaming Pro Rgb">
+                    <div class="contenedor-info">
+                        <h3>Aula F75</h3>
+                        <p>Inalámbrico Gaming Pro Rgb</p>
+                        <p>$4500</p>
+                    </div>
+                    <div class="contenedor-btn">
+                        <button class="btn bg-secondary cursor-pointer text-ligth comprar">
+                            Agregar al carrito
+                        </button>
+                        <a class="btn bg-secondary cursor-pointer text-dark ver-mas" href="./pages/interna-producto.html">Ver más</a>
+                    </div>
                 </article>
                 <article class="card text-dark">
-                    <img src="./img/teclado.png" alt="Teclado">
-                    <h3>Teclado</h3>
-                    <p>Teclado</p>
-                    <p>$4500</p>
-                    <button class="btn bg-secondary text-dark">
-                        Agregar al carrito
-                    </button>
+                    <img src="./img/imagen-tec-03.webp" alt="Teclado Epomaker Ajazz Ak820 Pro Gamer Gasket">
+                    <div class="contenedor-info">
+                        <h3>Epomaker Ajazz Ak820</h3>
+                        <p>Pro Gamer Gasket</p>
+                        <p>$4500</p>
+                    </div>
+                    <div class="contenedor-btn">
+                        <button class="btn bg-secondary cursor-pointer text-ligth comprar">
+                            Agregar al carrito
+                        </button>
+                        <a class="btn bg-secondary cursor-pointer text-dark ver-mas" href="./pages/interna-producto.html">Ver más</a>
+                    </div>
                 </article>
                 <article class="card text-dark">
-                    <img src="./img/teclado.png" alt="Teclado">
-                    <h3>Teclado</h3>
-                    <p>Teclado</p>
-                    <p>$4500</p>
-                    <button class="btn bg-secondary text-dark">
-                        Agregar al carrito
-                    </button>
+                    <img src="./img/imagen-tec-04.webp" alt="Teclado Aula F75 75% Gamer Rgb Español">
+                    <div class="contenedor-info">
+                        <h3>Aula F75</h3>
+                        <p>Gamer Rgb Español</p>
+                        <p>$4500</p>
+                    </div>
+                    <div class="contenedor-btn">
+                        <button class="btn bg-secondary cursor-pointer text-ligth comprar">
+                            Agregar al carrito
+                        </button>
+                        <a class="btn bg-secondary cursor-pointer text-dark ver-mas" href="./pages/interna-producto.html">Ver más</a>
+                    </div>
                 </article>
             </div>
         </section>
     </main>
     <footer>
-        <p>Sitio realizado por Manu</p>
+        <p class="text-light">Sitio realizado con ❤️ por Manuel Muñoz</p>
         <nav>
             <ul class="footer-list">
-                <li><img src="./img/" alt="Logo Whatsapp" width="50"></li>
-                <li><img src="./img/" alt="Logo instagram" width="50"></li>
+                <li class="cursor-pointer"><img src="./img/whatsapp.svg" alt="Logo Whatsapp"></li>
+                <li class="cursor-pointer"><img src="./img/instagram.svg" alt="Logo instagram"></li>
             </ul>
         </nav>
     </footer>
