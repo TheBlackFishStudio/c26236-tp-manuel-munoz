@@ -90,16 +90,20 @@ footer{
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: 700;
-    color: inherit;
+    color: #3D3D47;
     display: inline-block;
     padding: 2rem;
     text-transform: uppercase;
     transition: ease-in-out 150ms;
 }
-.header-nav a:hover{
+.header-nav a:hover, .header-nav a.active-nav{
     color:#1dcdfe;
 }
+
 .icon-carrito:hover{
+    background-color: #1dcdfe;
+}
+.icon-carrito-active{
     background-color: #1dcdfe;
 }
 .header-nav ul, footer .footer-list{
@@ -284,4 +288,63 @@ section .interna-btn{
 .lista-descrip{
     list-style: square;
     list-style-position: inside;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  Contacto                                  */
+/* -------------------------------------------------------------------------- */
+.contacto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-contacto{
+    margin: 2rem 0;
+}
+.form-contacto{
+    background-color: #fff;
+    color: #3D3D47;
+    width: 100%;
+    max-width: 70rem;
+    font-size: 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 1rem 1.2rem rgba(218, 224, 233, 1);
+}
+.grupo-input{
+    display: flex;
+    flex-direction: column;
+    gap:.8rem;
+    margin-bottom: 2rem;
+}
+.grupo-input input, .grupo-input textarea{
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    color: #3D3D47;
+    background-color: #fff;
+    border: .2rem solid #EFF2F6;
+    border-radius:.8rem;
+    outline:none;
+}
+.grupo-input input::placeholder, .grupo-input textarea::placeholder{
+    color: #bebecb;
+}
+.grupo-input textarea{
+    min-height: 10rem;
+    resize: vertical;
+}
+.grupo-input label{
+    font-size: 1.6rem;
+}
+/* -------------------------------------------------------------------------- */
+/*                                   Carrito                                  */
+/* -------------------------------------------------------------------------- */
+.carrito{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
 }

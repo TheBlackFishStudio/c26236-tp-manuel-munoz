@@ -20,12 +20,30 @@
         <nav class="header-nav">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a class="active-nav" href="./contacto.html">Contacto</a></li>
                 <li><a class="icon-carrito" href="./carrito.html"><img class="icon-nav" src="../img/carrito.svg" alt="carrito de compras"></a></li>
             </ul>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <section class="contacto">
+            <h2 class="titulo-contacto">Contacto</h2>        
+            <form class="form-contacto" action="https://formspree.io/f/xvkglblw" method="post">
+                <div class="grupo-input">
+                    <label for="email">Correo electrónico</label>
+                    <input id="email" type="email" name="email" placeholder="tucorreo@aqui.com">
+                </div>
+                <div class="grupo-input">
+                    <label for="mensaje">¿Cómo te podemos ayudar?</label>
+                    <textarea name="mensaje" id="message" placeholder="Déjanos tu consulta aquí"></textarea>
+                </div>
+                <div class="contenedor-btn">
+                    <button class="btn bg-secondary cursor-pointer text-ligth comprar" type="submit">Enviar consulta</button>
+                    <a class="btn bg-secondary cursor-pointer text-dark ver-mas" href="../index.html">Volver</a>
+                </div>
+            </form>
+        </section>
+    </main>
     <footer>
         <p class="text-light">Sitio realizado con ❤️ por Manuel Muñoz</p>
         <nav>
