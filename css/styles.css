@@ -255,16 +255,15 @@ background-color: #0B1428;
     display: flex;
     align-items: center;
     gap: 2rem;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 .producto .producto-imagen,.producto .producto-contenido{
-    width: 45%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 .producto-imagen img{
-    width: 100%;
+    max-width: 60rem;
 }
 .contenido-descripcion {
     display:flex;

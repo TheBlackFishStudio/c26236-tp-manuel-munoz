@@ -1,9 +1,12 @@
-@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:900px){
- .producto .producto-imagen,.producto .producto-contenido{
-        width: 100%;
+@media (max-width:1200px){
+    .producto{
+        flex-direction: column;
+    }
+    .producto-imagen img{
+        max-width: 100%;
     }
 }
-@media  screen and (-webkit-min-device-pixel-ratio:0) and (max-width:768px){
+@media (max-width:768px){
     main{
         width: 90%;
     }
