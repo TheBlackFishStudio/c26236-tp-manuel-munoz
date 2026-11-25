@@ -21,17 +21,22 @@
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
-                <li><a class="icon-carrito icon-carrito-active" href="./carrito.html"><img class="icon-nav" src="../img/carrito.svg" alt="carrito de compras"></a></li>
+                <li><a class="icon-carrito carrito-icono" href="./carrito.html"><img class="icon-nav" src="../img/carrito.svg" alt="carrito de compras"><span id="contador-carrito"></span></a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="carrito">
-            <h2 class="titulo-contacto">Carrito</h2>
-            <p class="titulo-contacto">Las compras se habilitaran lo más pronto posible.</p>
-            <div class="contenedor-btn">
-                <a class="btn bg-secondary cursor-pointer text-dark ver-mas" href="../index.html">Volver</a>
-            </div>
+        <h1 class="titulo-contacto">Carrito de compras</h1>
+        <section id="contenedor-carrito" class="contenedor-tarjetas">
+            <!-- Productos en el carrito -->           
+            
+        </section>
+        <section id="acciones-carrito" class="acciones-carrito">
+
+        </section>
+
+        <section id="resumen-carrito">
+
         </section>
         
     </main>
@@ -39,10 +44,11 @@
         <p class="text-light">Sitio realizado con ❤️ por Manuel Muñoz</p>
         <nav>
             <ul class="footer-list">
-                <li class="cursor-pointer"><a href="https://wa.me/1127374964?text=Hola%20estoy%20interesado%20en%20un%20tec" target="_blank"><img src="./img/whatsapp.svg" alt="Logo Whatsapp"></a></li>
-                <li class="cursor-pointer"><a href="https://www.instagram.com/manumunoz875/" target="_blank"><img src="./img/instagram.svg" alt="Logo instagram"></a></li>
+                <li class="cursor-pointer"><a href="https://wa.me/1127374964?text=Hola%20estoy%20interesado%20en%20un%20tec" target="_blank"><img src="../img/whatsapp.svg" alt="Logo Whatsapp"></a></li>
+                <li class="cursor-pointer"><a href="https://www.instagram.com/manumunoz875/" target="_blank"><img src="../img/instagram.svg" alt="Logo instagram"></a></li>
             </ul>
         </nav>
     </footer>
+    <script type="module" src="../js/carrito.js"></script>
 </body>
 </html>

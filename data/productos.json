@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "nombre": "Keychron V3 Max",
+        "descripcion" : "TKL Inalámbrico RGB",
+        "precio": "4500",
+        "img": "img/imagen-tec-01.webp",
+        "link" : "interna-producto.html"
+    },
+    {
+        "id": "2",
+        "nombre": "Aula F75",
+        "descripcion" : "Inalámbrico Gaming Pro Rgb",
+        "precio": "6500",
+        "img": "img/imagen-tec-02.webp",
+        "link" : "interna-producto.html"
+    },
+    {
+        "id": "3",
+        "nombre": "Epomaker Ajazz Ak820",
+        "descripcion" : "Pro Gamer Gasket",
+        "precio": "3500",
+        "img": "img/imagen-tec-03.webp",
+        "link" : "interna-producto.html"
+    },
+    {
+        "id": "4",
+        "nombre": "Aula F75",
+        "descripcion" : "Gamer Rgb Español",
+        "precio": "8500",
+        "img": "img/imagen-tec-04.webp",
+        "link" : "interna-producto.html"
+    }
+]

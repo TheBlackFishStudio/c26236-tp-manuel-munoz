@@ -22,7 +22,7 @@
             <ul>
                 <li><a class="active-nav" href="./index.html">Inicio</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li><a class="icon-carrito" href="./pages/carrito.html"><img class="icon-nav" src="./img/carrito.svg" alt="carrito de compras"></a></li>
+                <li><a class="icon-carrito carrito-icono" href="./pages/carrito.html"><img class="icon-nav" src="./img/carrito.svg" alt="carrito de compras"><span id="contador-carrito"></span></a></li>
             </ul>
         </nav>
     </header>
@@ -34,63 +34,7 @@
         </section>
         <section>
             <h2 class="titulo-productos text-secondary">Nuestros productos</h2>
-            <div class="contenedor-tarjetas">
-                <article class="card text-dark">
-                    <img src="./img/imagen-tec-01.webp" alt="Teclado Keychron V3 Max TKL Inalámbrico RGB">
-                    <div class="contenedor-info">
-                        <h3>Keychron V3 Max</h3>
-                        <p> TKL Inalámbrico RGB</p>
-                        <p>$4500</p>
-                    </div>
-                    <div class="contenedor-btn">
-                        <button class="btn bg-secondary cursor-pointer text-ligth comprar">
-                            Agregar al carrito
-                        </button>
-                        <a class="btn bg-secondary cursor-pointer text-dark ver-mas" href="./pages/interna-producto.html">Ver más</a>                        
-                    </div>
-                </article>
-                <article class="card text-dark">
-                    <img src="./img/imagen-tec-02.webp" alt="Teclado Aula F75 75% Gaming Pro Rgb">
-                    <div class="contenedor-info">
-                        <h3>Aula F75</h3>
-                        <p>Inalámbrico Gaming Pro Rgb</p>
-                        <p>$4500</p>
-                    </div>
-                    <div class="contenedor-btn">
-                        <button class="btn bg-secondary cursor-pointer text-ligth comprar">
-                            Agregar al carrito
-                        </button>
-                        <a class="btn bg-secondary cursor-pointer text-dark ver-mas" href="./pages/interna-producto.html">Ver más</a>
-                    </div>
-                </article>
-                <article class="card text-dark">
-                    <img src="./img/imagen-tec-03.webp" alt="Teclado Epomaker Ajazz Ak820 Pro Gamer Gasket">
-                    <div class="contenedor-info">
-                        <h3>Epomaker Ajazz Ak820</h3>
-                        <p>Pro Gamer Gasket</p>
-                        <p>$4500</p>
-                    </div>
-                    <div class="contenedor-btn">
-                        <button class="btn bg-secondary cursor-pointer text-ligth comprar">
-                            Agregar al carrito
-                        </button>
-                        <a class="btn bg-secondary cursor-pointer text-dark ver-mas" href="./pages/interna-producto.html">Ver más</a>
-                    </div>
-                </article>
-                <article class="card text-dark">
-                    <img src="./img/imagen-tec-04.webp" alt="Teclado Aula F75 75% Gamer Rgb Español">
-                    <div class="contenedor-info">
-                        <h3>Aula F75</h3>
-                        <p>Gamer Rgb Español</p>
-                        <p>$4500</p>
-                    </div>
-                    <div class="contenedor-btn">
-                        <button class="btn bg-secondary cursor-pointer text-ligth comprar">
-                            Agregar al carrito
-                        </button>
-                        <a class="btn bg-secondary cursor-pointer text-dark ver-mas" href="./pages/interna-producto.html">Ver más</a>
-                    </div>
-                </article>
+            <div id="contenedor-tarjetas" class="contenedor-tarjetas">                
             </div>
         </section>
     </main>
@@ -103,6 +47,7 @@
             </ul>
         </nav>
     </footer>
+    <script type="module" src="./js/index.js"></script>
 </body>
 </html>
 
